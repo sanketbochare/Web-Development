@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub Profile Viewer</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1 id="heading">GitHub Profile Viewer</h1>
+    <div class="searchbar">
+        <input type="text" id="textfield" placeholder="Enter GitHub username">
+        <button id="search-btn" onclick="SearchProfile()">Search</button>
+    </div>
+    <p id="status" class="status"></p>
+    <div id="profile" class="profile card" >
+        <div class="top">
+            <div class="intro">
+                <img id="profile-picture" src="" alt="Profile Picture">
+                <div class="name-id">
+                    <h3 id="name"></h3>
+                    <p id="user-id"></p>
+                </div>
+            </div>
+            <button id="visit-profile"></button>
+        </div>
+        <div class="about">
+            <p class="info-heading">Bio</p>
+            <p id="skills"></p>
+        </div>
+        <div class="connections">
+            <p>Followers: <span id="followers"></span></p>
+            <p>Following: <span id="following"></span></p>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
