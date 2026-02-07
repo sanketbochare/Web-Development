@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+            color: rgb(233, 245, 255);
+        }
+
+        .container {
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            background: #1c0024;
+            background: linear-gradient(90deg, rgba(28, 0, 36, 1) 0%, rgba(59, 93, 173, 1) 0%, rgba(0, 212, 255, 1) 100%);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(60, 1, 75);
+            width: 1000px;
+            height: 600px;
+        }
+
+        .rightbox {
+            width: 50%;
+            height: 100%;
+
+            background-image: url("Gulab-jamun.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat
+        }
+        .leftbox{
+            padding: 5%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .txt1 h1{
+            font-weight: bold;
+            font-size: 2rem;
+        }
+        .txt3{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="leftbox">
+             <div class="txt1">
+                <h1>Lorem ipsum dolor sit amet consectetur.</h2>
+             </div>
+             <div class="txt2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sint quos iure. Illo maxime, libero doloremque obcaecati exercitationem nesciunt modi incidunt? Eaque nemo sit quo architecto laborum perspiciatis exercitationem quis?</p>
+             </div>
+             <div class="txt3">
+                <div class="comments">
+                   <h1>10K+</h1>
+                   <p>Comments</p>
+                </div>
+                <div class="Paid">
+                    <h1>214</h1>
+                   <p>Paid</p>
+                </div>
+                <div class="Views">
+                    <h1>12M+</h1>
+                   <p>Views</p>
+                </div>
+             </div>
+            </div>
+            <div class="rightbox">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

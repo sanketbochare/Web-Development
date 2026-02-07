@@ -1,0 +1,31 @@
+*{
+    background-color: rgb(59, 185, 244);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#todo-input{
+    width: 50%;
+    height: 30px ;
+    margin: 1%;
+}
+#add-btn{
+    width: 10%;
+    height: 30px;
+    margin: 1%;   
+}
+#todo-list{
+    display: flex;
+    justify-content: left;
+    margin: 0 10%;
+}
+.todo-btn{
+    
+}
