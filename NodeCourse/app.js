@@ -1,11 +1,11 @@
-console.log("star operation");
+console.log("start operation");
 
-async function sleep(mil){
+await function sleep(mil){
     let startTime=new Date().getTime();
-
+    console.log(`Operation is running : ${startTime}`);
     while(new Date().getTime()<startTime+mil){
      console.log("in progress") ;  
     }
 }
 sleep(1000);
-console.log("done");
+console.log("do something else...");
