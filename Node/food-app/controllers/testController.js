@@ -1,6 +1,5 @@
-const testUserController=()=>{};
-
-module.exports=testUserController=(req,res)=>{
+const testUserController=(req,res)=>
+{
     try{
        res.status(200).send({
         success:true,
@@ -10,3 +9,4 @@ module.exports=testUserController=(req,res)=>{
   console.log('error in the test API', error);
     }
 };
+module.exports=testUserController;

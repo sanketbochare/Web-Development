@@ -9,6 +9,9 @@ dotenv.config();
 app.use(cors());
 app.use(express.json());
 app.use(morgan("dev"));
+
+app.use('/api/v1/',require('./routes/testRoutes'));
+
 app.get('/',(req,res)=>{
     return res.status(200).send(`<h1>Welcome to food server</h1>`);
 });
