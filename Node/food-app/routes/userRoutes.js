@@ -1,0 +1,13 @@
+const express=require('express');
+const { getUserController } = require('../controllers/userContoller');
+const authMiddleware = require('../middleware/authMiddleware');
+
+
+const router=express.Router();
+
+
+//routes
+//GET USER || GET
+router.get('/getUser',authMiddleware,getUserController);
+
+module.exports=router;
