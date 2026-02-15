@@ -75,8 +75,7 @@ It serves as a solid backend foundation for **MERN stack applications**.
 
 ## 👤 Author
 
-**Sanket Bochare**  
-Diploma in Computer Engineering  
+**Sanket Bochare**   
 Backend Development • REST APIs • MongoDB  
 
 ---
