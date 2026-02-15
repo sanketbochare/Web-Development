@@ -61,8 +61,7 @@ Rather than isolated tutorials, this repo focuses on **learning by building**, d
 
 ## 👤 Author
 
-**Sanket Bochare**  
-Diploma in Computer Engineering  
+**Sanket Bochare**    
 Web Development • Backend • REST APIs  
 
 ---
